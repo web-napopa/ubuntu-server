@@ -3,9 +3,6 @@
 # Author: Anton Stoychev <antitoxic@gmail.com>
 #
 
-
-
-
 ###################### DIRS #############################
 
 input_existing_dir_with_default()

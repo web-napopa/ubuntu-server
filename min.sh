@@ -12,10 +12,10 @@ install_apt fluxbox xinit thunar thunar-archive-plugin mrxvt python-software-pro
 install_apt dkms
 
 #versioning
-install_apt git subversion
+install_apt git subversion bzr 
 
 #archive
-install_apt unrar unzip bzr 
+install_apt unrar unzip
 
 #image editing
 install_apt imagemagick 

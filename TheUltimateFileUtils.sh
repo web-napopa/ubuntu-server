@@ -3,8 +3,8 @@
 # Author: Anton Stoychev <antitoxic@gmail.com>
 #
 
-
 ###################### FILE #############################
+
 read_file() 
 {
 	filePath=${1}
@@ -92,7 +92,6 @@ get_file()
 	read_file $filePath
 }
 
-
 get_file_path_with_default() 
 {
 	defaultFilePath=${1}
@@ -116,6 +115,7 @@ get_file_path_with_default()
 	done
 	RET=$filePath
 }
+
 get_file_with_default_path() 
 {
 	defaultFilePath=${1}
@@ -140,32 +140,38 @@ get_file_with_default_path()
 	read_file $filePath
 }
 
-
-
 overwrite_save_file() 
 {
 	filePath=$1
 	data=$2
 	sudo echo -e "$2" > $1
 }
+
+
 add_save_file() 
 {
 	filePath=$1
 	data=$2
 	sudo echo -e "$2" >> $1
 }
+
+
 make_symlink() 
 {
 	from=$1
 	to=$2
 	sudo ln -s $1 $2
 }
+
+
 make_shortcut() 
 {
 	from=$1
 	to=$2
 	make_symlink $1 $2
 }
+
+
 copy_file() 
 {
 	from=$1
@@ -173,4 +179,4 @@ copy_file()
 	cp $1 $2
 }
 
-	# cp -R "$from" "$to"
+# cp -R "$from" "$to"
