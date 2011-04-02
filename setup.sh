@@ -3,7 +3,7 @@
 # Author: Anton Stoychev <antitoxic@gmail.com>
 #
 #
-source ./TheUltimateUtils.sh
+source ./utils.sh
 
 # basic GUI which DOESN'T run automatically, started by executing "startx" command (remove next line if you dont want any GUI)
 install_apt fluxbox xinit thunar thunar-archive-plugin mrxvt python-software-properties mousepad

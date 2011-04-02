@@ -2,8 +2,8 @@
 #
 # Author: Anton Stoychev <antitoxic@gmail.com>
 #
-source ./TheUltimateFileUtils.sh
-source ./TheUltimateDirUtils.sh
+source ./file-utils.sh
+source ./dir-utils.sh
 
 usage()
 {

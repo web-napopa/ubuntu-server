@@ -27,7 +27,7 @@ It is a script that should be run after you install Ubuntu from the [minimal dis
 
 After you download it run:
 	cd ubuntu-server
-	chmod +x ./min.sh
-	sudo ./min.sh
+	chmod +x ./setup.sh
+	sudo ./setup.sh
 
 **Don't forget the sudo**.
