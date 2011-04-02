@@ -27,7 +27,7 @@ get_existing_file_path()
 	local SILENT=0
 	local OK=0
 	local filePath=
-	while getopts “f:s” OPTION
+	while getopts "f:s" OPTION
 	do
 		 case $OPTION in
 			 f)

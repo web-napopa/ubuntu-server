@@ -7,7 +7,7 @@ It is a script that should be run after you install Ubuntu from the [minimal dis
 ### Other applied OS changes
 * Apache **rewrite module** is enabled
 * Ensure PHP settings (php.ini):
-  * Magic quotes Closed are turned off
+  * Magic Quotes are turned off
   * Increases file upload limits
   * Increase memory limit
   * Display errors (even strict)
